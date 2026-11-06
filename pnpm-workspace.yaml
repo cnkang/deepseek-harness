@@ -18,6 +18,9 @@ overrides:
   'extract-zip>yauzl': '3.4.0'
   '@deepseek-ai/cosmokit': 'link:vendor/cosmokit'
   '@deepseek-ai/schemastery': 'link:vendor/schemastery'
+  # DSH and @botiverse/oar currently resolve these vulnerable exact releases.
+  'undici@8.10.2': '8.12.2'
+  'undici@8.11.2': '8.12.2'
 
 peerDependencyRules:
   allowedVersions:
